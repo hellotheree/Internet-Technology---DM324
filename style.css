@@ -1,0 +1,91 @@
+body{
+    /*background-image: url(https://www.fue.edu.eg/ImageHandler.ashx?Id=6429&SS=7236ec28809dbdd72855fd7784ae9d01);*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title{
+    text-align: center;
+
+}
+
+ul{
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #008CBA;
+}
+li a{
+    display: block;
+    color: #666666;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+li a:hover{
+    color: white;
+    background-color: #dddddd;
+}
+
+li a.active{
+    background-color: rgb(76, 175, 80);
+    color: white;;
+}
+.Nav-right{
+    float: right;
+}
+
+div:not(.searchbar){
+    border: 3px solid;
+    /*border-radius: 15px;*/
+    border-style: dotted;
+    box-shadow: 50px 20px 55px gold;
+    background-image: linear-gradient( orange, indigo);
+    
+}
+
+.searchbar{
+    width: 50%;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.searchbar:hover{
+    box-shadow: 0px 0px 15x dimgray;
+}
+
+.searchbox{
+    width: 100%;
+    padding: 8px 8px;
+    border: none;
+    outline: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr{
+    text-align: center;
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font: bold;
+    font-size: x-large;
+}
+
+tbody tr:nth-child(even){
+    background-color: thistle;
+}
